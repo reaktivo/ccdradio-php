@@ -40,9 +40,9 @@ window.Main = (function() {
       var hook = this["" + sectionName + "_in"];
       hook && hook.call(this);
       this.body.attr({ id: sectionName});
-      $('> div', this.main).transition(this.transform.hide, function() {
+      self.main.transition(this.transform.hide, function() {
         self.main.load(e.currentTarget.href + " #main-content", function() {
-          $('#main-content', this.main)
+          self.main
             .css(self.transform.hide)
             .show()
             .transition(self.transform.show);

@@ -326,6 +326,9 @@ body.is-playing #main .escucha .on-air span {
   left: 0;
   opacity: 1;
 }
+#main-content {
+  position: relative;
+}
 #main .programacion {
   position: relative;
   margin: 0 auto;
@@ -335,7 +338,7 @@ body.is-playing #main .escucha .on-air span {
   z-index: 2;
   left: 0;
   right: 0;
-  top: 80px;
+  top: -80px;
 }
 #main .programacion .bio-container #bio {
   width: 420px;
