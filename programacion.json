@@ -1,0 +1,69 @@
+[
+  {
+    "day": "Lunes",
+    "shows": [
+      {
+        "name": "Pipa y la fuente",
+        "link": "/shows/pipa-y-la-fuente.php",
+        "start": 1800,
+        "end": 1900,
+        "host": "Con Jesús Pacheco"
+      }
+    ]
+  },
+  {
+    "day": "Martes",
+    "shows": [
+      {
+        "name": "Pipa y la fuente",
+        "link": "/shows/pipa-y-la-fuente.php",
+        "start": 1700,
+        "end": 1900,
+        "host": "Con Jesús Pacheco"
+      },
+      {
+        "name": "Sueños de una Nación",
+        "link": "/shows/suenos-de-una-nacion.php",
+        "start": 1800,
+        "end": 1900,
+        "host": "Con Ricardo Pholenz"
+      }
+    ]
+  },
+  {
+    "day": "Miércoles",
+    "shows": [
+      {
+        "name": "VRDM",
+        "link": "/shows/vrdm.php",
+        "start": 1700,
+        "end": 1900,
+        "host": "Con Ricardo Pholenz"
+      }
+    ]
+  },
+  {
+    "day": "Jueves",
+    "shows": [
+      {
+        "name": "Mecánica instrumental",
+        "link": "/shows/mecanica-instrumental.php",
+        "start": 1700,
+        "end": 1900,
+        "host": "Con Ricardo Pholenz"
+      }
+    ]
+  },
+  {
+    "day": "Viernes",
+    "shows": [
+      {
+        "name": "BC CRATER",
+        "link": "/shows/bc-crater.php",
+        "start": 1800,
+        "end": 1900,
+        "host": "Con Juan Angel Salas Pérez"
+      }
+    ]
+  }
+]

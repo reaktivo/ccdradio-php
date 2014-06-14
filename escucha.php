@@ -1,3 +1,4 @@
+<?php include('_top.php') ?>
 <div class="escucha">
   <div class="en-construccion"><p>Actualmente nos encontramos trabajando en nuestra
 página web y cabina de radio, este es un video en
@@ -11,3 +12,4 @@ nues&shy;tra pro&shy;gra&shy;ma&shy;ción.</p>
     <div class="label"><span>Estás escuchando:</span><span class="now-playing">CCD Radio</span></div>
   </a>
 </div>
+<?php include('_bottom.php') ?>

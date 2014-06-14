@@ -39,32 +39,7 @@
 
 
 
-    <h1 class="ccdradio"><a href="#escucha">CCD Radio</a></h1>
+    <h1 class="ccdradio"><a href="#escucha" data-layer="1">CCD Radio</a></h1>
 
     <div id="main">
       <div id="main-content">
-        <?php include("./pages/{$page}.php") ?>
-      </div>
-    </div>
-
-    <nav id="main-nav" href="#">
-      <a href="?p=escucha">Escucha</a>
-      <span class="spacer">|</span>
-      <a href="?p=programacion">Programación</a>
-      <span class="spacer">|</span>
-      <a href="?p=acerca-de">Acerca de</a>
-    </nav>
-
-    <footer>
-      <a href="#" class="sep">SEP</a>
-      <a href="#" class="conaculta">Conaculta</a>
-    </footer>
-
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery.transit/0.9.9/jquery.transit.min.js"></script>
-    <script src="js/jquery.shoutcast.js"></script>
-    <script src="js/ccdplayer.js"></script>
-    <script src="js/viewport.js"></script>
-    <script src="js/main.js"></script>
-  </body>
-</html>

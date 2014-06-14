@@ -154,21 +154,32 @@ body {
   background: url("../img/loop.gif") no-repeat center center;
   background-size: cover;
 }
+
 h1.ccdradio {
   position: absolute;
   top: 20px;
   left: 20px;
   z-index: 200;
 }
+
 h1.ccdradio a {
   display: block;
-  background: url("../img/ccdradio.png") no-repeat;
   background-size: contain;
-  width: 180px;
+  background-repeat: no-repeat;
+  width: 160px;
   height: 0;
   padding-top: 98px;
   overflow: hidden;
 }
+
+.svg h1.ccdradio a {
+  background-image: url("../img/ccd-radio.svg");
+}
+
+.no-svg h1.ccdradio a {
+  background-image: url("../img/ccd-radio.png");
+}
+
 #background {
   position: absolute;
   top: 0;
@@ -204,7 +215,26 @@ h1.ccdradio a {
 #main-nav a {
   color: #fff;
   text-decoration: none;
+  line-height: 1.4em;
+  display: inline-block;
+  border-bottom: 2px solid transparent;
+  -webkit-transition: border 0.6s ease-in-out;
+  transition: border 0.6s ease-in-out;
 }
+
+#escucha #main-nav a.escucha {
+  border-color: #fff;
+}
+
+#programacion #main-nav a.programacion {
+  border-color: #fff;
+}
+
+#acerca-de #main-nav a.acerca-de {
+  border-color: #fff;
+}
+
+
 #main-nav .spacer {
   margin: 0 20px;
 }
@@ -333,14 +363,23 @@ body.is-playing #main .escucha .on-air span {
   position: relative;
   margin: 0 auto;
 }
-#main .programacion .bio-container {
-  position: absolute;
-  z-index: 2;
-  left: 0;
-  right: 0;
-  top: -80px;
+#main .bio-container {
+  position: relative;
+  top: 20px;
 }
-#main .programacion .bio-container #bio {
+
+#main .bio-container a.close {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+  position: absolute;
+  right: -40px;
+  top: -20px;
+  font-size: 42px;
+  font-weight: 200;
+}
+
+#main .bio-container #bio {
   width: 420px;
   max-width: 100%;
   margin: 0 auto;
@@ -348,52 +387,52 @@ body.is-playing #main .escucha .on-air span {
   line-height: 1.6em;
   position: relative;
 }
-#main .programacion .bio-container #bio h1 {
+#main .bio-container #bio h1 {
   font-weight: bold;
   line-height: 2em;
   margin-left: 22px;
 }
-#main .programacion .bio-container #bio h2 {
+#main .bio-container #bio h2 {
   color: #ffb54d;
   text-transform: uppercase;
   font-weight: bold;
 }
-#main .programacion .bio-container #bio h2 span {
+#main .bio-container #bio h2 span {
   margin-right: 1em;
 }
-#main .programacion .bio-container #bio h2 .schedule {
+#main .bio-container #bio h2 .schedule {
   font-weight: normal;
 }
-#main .programacion .bio-container #bio .about {
+#main .bio-container #bio .about {
   border: 4px solid;
   padding: 20px;
 }
-#main .programacion .bio-container #bio .show {
+#main .bio-container #bio .show {
   border: 4px solid;
   border-top: none;
   padding: 20px;
 }
-#main .programacion .bio-container #bio .side {
+#main .bio-container #bio .side {
   position: absolute;
   width: 160px;
   left: -164px;
   top: -40px;
 }
-#main .programacion .bio-container #bio .side img {
+#main .bio-container #bio .side img {
   border: 4px solid #fff;
   display: block;
 }
-#main .programacion .bio-container #bio .side a {
+#main .bio-container #bio .side a {
   color: #fff;
   text-decoration: none;
   text-align: right;
   font-weight: bold;
   display: block;
 }
-#main .programacion .bio-container #bio .links {
+#main .bio-container #bio .links {
   margin-top: -4px;
 }
-#main .programacion .bio-container #bio .links a {
+#main .bio-container #bio .links a {
   display: block;
   float: left;
   padding-top: 55px;
@@ -403,16 +442,16 @@ body.is-playing #main .escucha .on-air span {
   overflow: hidden;
   margin-right: -4px;
 }
-#main .programacion .bio-container #bio .links a.twitter {
+#main .bio-container #bio .links a.twitter {
   background-image: url("../img/twitter.png");
 }
-#main .programacion .bio-container #bio .links a.facebook {
+#main .bio-container #bio .links a.facebook {
   background-image: url("../img/facebook.png");
 }
-#main .programacion .bio-container #bio .links a.skype {
+#main .bio-container #bio .links a.skype {
   background-image: url("../img/skype.png");
 }
-#main .programacion .bio-container #bio .links a.soundcloud {
+#main .bio-container #bio .links a.soundcloud {
   background-image: url("../img/soundcloud.png");
 }
 #main .programacion .calendario {
@@ -445,14 +484,8 @@ body.is-playing #main .escucha .on-air span {
   color: #ffb245;
   font-size: 11px;
 }
-#main .programacion .calendario > div a.show .who {
+#main .programacion .calendario > div a.show .host {
   font-size: 12px;
-}
-#main .programacion .calendario .miercoles {
-  top: -80px;
-}
-#main .programacion .calendario .viernes {
-  top: 80px;
 }
 #main .acerca-de .text {
   max-width: 1100px;
