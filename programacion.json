@@ -1,17 +1,5 @@
 [
   {
-    "day": "Lunes",
-    "shows": [
-      {
-        "name": "Pipa y la fuente",
-        "link": "/shows/la-pipa-y-la-fuente.php",
-        "start": 1800,
-        "end": 1900,
-        "host": "Con Jesús Pacheco"
-      }
-    ]
-  },
-  {
     "day": "Martes",
     "shows": [
       {
