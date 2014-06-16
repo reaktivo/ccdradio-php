@@ -7,28 +7,15 @@
   <div id="bio">
 
     <div class="side">
-      <img src="/img/bio-pic.jpg">
+      <img src="/img/ricardo-pohlenz.jpg">
     </div>
 
-    <h1>Juan Angel Salaz Pérez</h1>
+    <h1>
+      <span class="title">Sueños de una Nación</span>
+      <span class="schedule">Viernes de 5 a 7 pm</span>
+    </h1>
     <a class="close" data-layer="1" href="/programacion.php">×</a>
-    <div class="about">
-      <p>
-        Veracruz Ver. México 1958.
-        Estudió economía en la UAM Xochimilco, México
-        y un posgrado de Historia y Geografía en el Instituto Mora
-        (Maestría en Estudios Regionales) también algunos semestres
-        de Diseño en la Escuela de Diseño del INBA (Instituto Nacional
-        de Bellas Artes) Ciudad de México.<br>
-        Tomó seminarios de Sociología en el programa de doctorado
-        en Ciencias Sociales del Colegio de la Frontera Norte en Tijuana B.C. México
-       </p>
-    </div>
     <div class="show">
-      <h2>
-        <span class="title">Sueños de una Nación</span>
-        <span class="schedule">Viernes de 5 a 7 pm</span>
-      </h2>
       <p>Los sueños de la nación se propone como un programa nocturno semanal
       con duración de una hora en el cual, mediante un proceso de
       investigación previa, cada emisión se transmitirán —ya sea contados,
@@ -56,6 +43,19 @@
       y sociales, que han tenido lugar en el país a lo largo de su historia y
       generar un atlas onírico, efímero.</p>
 
+    </div>
+    <div class="about">
+      <h2>Juan Angel Salaz Pérez</h2>
+      <p>
+        Veracruz Ver. México 1958.
+        Estudió economía en la UAM Xochimilco, México
+        y un posgrado de Historia y Geografía en el Instituto Mora
+        (Maestría en Estudios Regionales) también algunos semestres
+        de Diseño en la Escuela de Diseño del INBA (Instituto Nacional
+        de Bellas Artes) Ciudad de México.<br>
+        Tomó seminarios de Sociología en el programa de doctorado
+        en Ciencias Sociales del Colegio de la Frontera Norte en Tijuana B.C. México
+       </p>
     </div>
     <div class="links"><a href="http://twitter.com" class="twitter">Twitter</a><a href="http://facebook.com" class="facebook">Facebook</a><a href="http://skype.com" class="skype">Skype</a><a href="http://soundcloud.com" class="soundcloud">Soundcloud</a></div>
   </div>

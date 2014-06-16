@@ -387,20 +387,22 @@ body.is-playing #main .escucha .on-air span {
   line-height: 1.6em;
   position: relative;
 }
-#main .bio-container #bio h1 {
+#main .bio-container #bio h2 {
   font-weight: bold;
   line-height: 2em;
-  margin-left: 22px;
 }
-#main .bio-container #bio h2 {
+#main .bio-container #bio h1 {
   color: #ffb54d;
   text-transform: uppercase;
   font-weight: bold;
+  margin-left: 22px;
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
-#main .bio-container #bio h2 span {
+#main .bio-container #bio h1 span {
   margin-right: 1em;
 }
-#main .bio-container #bio h2 .schedule {
+#main .bio-container #bio h1 .schedule {
   font-weight: normal;
 }
 #main .bio-container #bio .about {
@@ -409,7 +411,7 @@ body.is-playing #main .escucha .on-air span {
 }
 #main .bio-container #bio .show {
   border: 4px solid;
-  border-top: none;
+  border-bottom: none;
   padding: 20px;
 }
 #main .bio-container #bio .side {
