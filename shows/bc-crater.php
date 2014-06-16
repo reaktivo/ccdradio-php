@@ -11,7 +11,7 @@
     </div>
 
     <h1><span class="title">B.C. Cráter</span>
-        <span class="schedule">Viernes de 5 a 7 pm</span>
+        <span class="schedule">Viernes de 18:00 a 19:00</span>
     </h1>
     <a class="close" data-layer="1" href="/programacion.php">×</a>
     <div class="show">

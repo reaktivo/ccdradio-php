@@ -7,12 +7,12 @@
   <div id="bio">
 
     <div class="side">
-      <img src="/img/pmenmali.jpg">
+      <img src="/img/jesus-pacheco.jpg">
     </div>
 
     <h1>
       <span class="title">La Pipa y la Fuente</span>
-      <span class="schedule">Viernes de 5 a 7 pm</span>
+      <span class="schedule">Martes de 17:00 a 19:00</span>
     </h1>
     <a class="close" data-layer="1" href="/programacion.php">×</a>
     <div class="show">

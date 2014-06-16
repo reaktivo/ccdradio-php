@@ -12,7 +12,7 @@
 
     <h1>
       <span class="title">Mecánica Instrumental</span>
-      <span class="schedule">Viernes de 5 a 7 pm</span>
+      <span class="schedule">Jueves de 17:00 a 19:00</span>
     </h1>
     <a class="close" data-layer="1" href="/programacion.php">×</a>
     <div class="show">
