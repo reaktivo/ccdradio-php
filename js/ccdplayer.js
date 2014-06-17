@@ -3,29 +3,24 @@ window.CCDPlayer = (function() {
   function CCDPlayer(opts) {
     this.host = opts.host;
     this.port = opts.port;
-    this.btn = $(opts.btn);
+    this.btn = opts.btn
     this.audio = $('audio#stream');
-    this.playIcon = $('.play', this.btn);
-    this.nowPlaying = $('.now-playing', this.btn);
-    this.btn.click(this.toggle_audio.bind(this));
+    $(document).on('click', this.btn, this.toggle_audio.bind(this));
     this.setup_shoutcast();
   }
 
   $.extend(CCDPlayer.prototype, {
 
     text: 'CCD Radio',
-    isPlaying: false,
 
     toggle_audio: function() {
-      if (this.isPlaying) {
+      if ( this.isPlaying() ) {
         this.audio[0].pause();
-        this.playIcon.show();
+        $('body').removeClass('is-playing');
       } else {
         this.audio[0].play();
-        this.playIcon.hide();
+        $('body').addClass('is-playing');
       }
-      this.isPlaying = !this.isPlaying;
-      $('body').toggleClass('is-playing', this.isPlaying);
       return false;
     },
 
@@ -45,7 +40,11 @@ window.CCDPlayer = (function() {
         return;
       }
       this.text = text;
-      return this.nowPlaying.text(text).attr('title', text);
+      $('.now-playing').text(text).attr('title', text);
+    },
+
+    isPlaying: function() {
+      return $('body').hasClass('is-playing');
     }
 
   });

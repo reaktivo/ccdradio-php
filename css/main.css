@@ -356,6 +356,11 @@ body.is-playing #main .escucha .on-air span {
   left: 0;
   opacity: 1;
 }
+
+body.is-playing #main .escucha i.play {
+  display: none;
+}
+
 #main-content {
   position: relative;
 }
