@@ -19,29 +19,10 @@
 
       <p>Es 1 programa donde se entrevista a quienes deben trabajar (por gusto o por necesidad) en más de un trabajo o especialidad.</p>
 
-      <p>
-        Los invitados confirmados son:<br>
-        Juan Carlos Cano Arquitecto, poeta y editor<br>
-        Luis Orozco, artista, curador, mueblero y diseñador de interiores Héctor Falcon, artista, edtior y publicista
-      </p>
-
     </div>
     <div class="about">
       <h2>Ricardo Pohlenz</h2>
-      <p>Ricardo Pohlenz nació en 1965. Es escritor, poeta y comunicador.
-        Su obra tan irreverente como obsesiva, se caracteriza por habitar
-        un espacio indefinido entre los géneros. Ha escrito para publicaciones
-        como Flash Art, Vuelta, Letras Libres, La Tempestad, Complot,
-        Paréntesis, Artes de México, Revista de la Universidad, La Gaceta
-        del Fondo de Cultura Económica, 24 x segundo y Saber Ver. Fue
-        miembro del consejo editorial de la revista Farenheit y Editor
-        en jefe de El Huevo. Recientemente publicó la colección de relatos
-        Lounge y sus libros El azul de cielo, La vocación del submarino y
-        El cafre ilustrado están en preparación. Pohlenz también trabajó
-        como locutor de radio en WFM y Ondas del Lago. Es miembro de la
-        banda Los Ositos Arrítmicos de Lemuria. Actualmente tiene una columna
-        de cine en el semanario Frente y colabora con la página de Internet
-        Enfilme y es profesor en Centro de Diseño, Cine y Televisión.</p>
+      <p>Ricardo Pohlenz es escritor, poeta y comunicador. Su obra tan irreverente como obsesiva, se caracteriza por habitar un espacio indefinido entre los géneros. Ha escrito para publicaciones como Flash Art, Vuelta, Letras Libres, La Tempestad, Complot, Paréntesis, Artes de México, Revista de la Universidad, La Gaceta del Fondo de Cultura Económica, 24 x segundo y Saber Ver. Fue miembro del consejo editorial de la revista Farenheit y Editor en jefe de El Huevo. Recientemente publicó la colección de relatos Lounge y sus libros El azul de cielo, La vocación del submarino y El cafre ilustrado están en preparación. Pohlenz también trabajó como locutor de radio en WFM y Ondas del Lago. Es miembro de la banda Los Ositos Arrítmicos de Lemuria. Actualmente tiene una columna de cine en el semanario Frente y colabora con la página de Internet Enfilme y es profesor en Centro de Diseño, Cine y Televisión.</p>
     </div>
     <div class="links"><a href="http://twitter.com" class="twitter">Twitter</a><a href="http://facebook.com" class="facebook">Facebook</a><a href="http://skype.com" class="skype">Skype</a><a href="http://soundcloud.com" class="soundcloud">Soundcloud</a></div>
   </div>
