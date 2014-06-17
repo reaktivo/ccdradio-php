@@ -514,17 +514,31 @@ footer {
   overflow: hidden;
   background: #252525;
 }
+
+footer .sep {
+  float: left;
+  background-image: url(/img/sep.png);
+}
+footer .conaculta {
+  float: right;
+  background-image: url(/img/conaculta.png);
+}
+
 footer > * {
   width: 200px;
   height: 0;
   padding-top: 100px;
   overflow: hidden;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
-footer .sep {
-  float: left;
-  background: url("/img/sep.png") no-repeat;
+
+@media only screen and (max-width: 767px) {
+  footer > * {
+    width: 100px;
+    padding-top: 50px;
+  }
 }
-footer .conaculta {
-  float: right;
-  background: url("/img/conaculta.png") no-repeat;
-}
+
+
+
