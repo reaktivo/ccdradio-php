@@ -52,8 +52,9 @@ window.Main = (function() {
 
     layout: function() {
       var viewportH = $.viewport().height;
-      var footerH = $('footer').outerHeight();
-      $('> div', this.main).css({height: viewportH - footerH});
+      var $footer = $('footer');
+      var footerH = $footer.outerHeight();
+      //$('#main-content').css({height: viewportH - footerH});
     }
 
   });
